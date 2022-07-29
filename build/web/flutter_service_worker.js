@@ -13,14 +13,14 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/NOTICES": "02c7b44997a5fff62730cfdd81ecec01",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"assets/NOTICES": "2bc95e7c7cc8ce6dd9e1c8d997da3ba1",
+"favicon.png": "edfb0d5448129821ec2ebf9234acf029",
+"icons/Icon-192.png": "10d856eb4304b751de3a994aaac27fa7",
+"icons/Icon-512.png": "598106789a3a688ec86113f9e79d2f8b",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "cac0923a0c32a012fb7f44795c0c3d79",
-"/": "cac0923a0c32a012fb7f44795c0c3d79",
+"index.html": "2119ca92797b0727eb3016bb38261ec2",
+"/": "2119ca92797b0727eb3016bb38261ec2",
 "manifest.json": "75b86b0dda294c0b860f9d89182cd66c"
 };
 
