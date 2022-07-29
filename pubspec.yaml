@@ -1,0 +1,25 @@
+name: tytydraco_xyz
+description: The Flutter frontend app for the tytydraco.xyz website.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  basil: ^1.1.0+1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+basil:
+  build:
+    cmds: [ 'flutter build web --release' ]
+  publish:
+    cmds: [ 'bash -c "cd build/web/ && echo TODO"' ]
