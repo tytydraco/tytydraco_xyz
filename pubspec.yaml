@@ -33,6 +33,6 @@ basil:
   icon:
     cmds: [ 'flutter pub run flutter_launcher_icons_maker:main' ]
   build:
-    cmds: [ 'flutter build web --release' ]
+    cmds: [ 'flutter build web --release --web-renderer html' ]
   publish:
     cmds: [ 'bash -c "cd build/web/ && echo TODO"' ]
