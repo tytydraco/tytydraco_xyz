@@ -1,7 +1,7 @@
-/// Holds [Subpage] with an associated url.
-class Subpage {
-  /// Creates a new [Subpage] given a [name], [description], and [url].
-  const Subpage({
+/// Holds [SubpageModel] with an associated url.
+class SubpageModel {
+  /// Creates a new [SubpageModel] given a [name], [description], and [url].
+  const SubpageModel({
     required this.name,
     required this.description,
     required this.url,

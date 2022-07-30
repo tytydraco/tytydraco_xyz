@@ -53,10 +53,10 @@ const links = [
   ),
 ];
 
-/// A list of type [Subpage] containing the links to any additional subpages to
+/// A list of type [SubpageModel] containing the links to any additional subpages to
 /// display in the subpages section.
 const subpages = [
-  Subpage(
+  SubpageModel(
     name: 'yessleep',
     description: 'a r/nosleep scraper and publisher in Markdown format',
     url: 'https://yessleep.tytydraco.xyz',
