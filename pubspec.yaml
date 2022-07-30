@@ -23,6 +23,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Source Code Pro
+      fonts:
+        - asset: fonts/SourceCodePro-Regular.otf
 
 flutter_icons:
   web: true

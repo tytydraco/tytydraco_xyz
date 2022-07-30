@@ -10,7 +10,6 @@ class ProfileLogo extends StatelessWidget {
     return const Text(
       '#!t',
       style: TextStyle(
-        fontFamily: 'Source Code Pro',
         fontSize: 128,
       ),
     );

@@ -16,7 +16,6 @@ class ProfileName extends StatelessWidget {
           child: Text(
             'tytydraco',
             style: TextStyle(
-              fontFamily: 'Source Code Pro',
               fontSize: 18,
             ),
           ),
@@ -33,7 +32,6 @@ class ProfileName extends StatelessWidget {
             child: Text(
               '<tylernij@gmail.com>',
               style: TextStyle(
-                fontFamily: 'Source Code Pro',
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
