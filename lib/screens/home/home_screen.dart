@@ -3,6 +3,7 @@ import 'package:tytydraco_xyz/config.dart';
 import 'package:tytydraco_xyz/screens/home/profile_links.dart';
 import 'package:tytydraco_xyz/screens/home/profile_logo.dart';
 import 'package:tytydraco_xyz/screens/home/profile_name.dart';
+import 'package:tytydraco_xyz/screens/home/subpages.dart';
 
 /// The main home screen of the app.
 class HomeScreen extends StatefulWidget {
@@ -16,6 +17,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   var _mainOpacity = 0.0;
   var _linksOpacity = 0.0;
+  var _subpagesOpacity = 0.0;
 
   Future<void> _startFade() async {
     await Future<void>.delayed(fadeDelaySectionMain);
@@ -26,6 +28,11 @@ class _HomeScreenState extends State<HomeScreen> {
     await Future<void>.delayed(fadeDelaySectionLinks);
     setState(() {
       _linksOpacity = 1.0;
+    });
+
+    await Future<void>.delayed(fadeDelaySectionSubpages);
+    setState(() {
+      _subpagesOpacity = 1.0;
     });
   }
 
@@ -57,6 +64,12 @@ class _HomeScreenState extends State<HomeScreen> {
               opacity: _linksOpacity,
               duration: fadeDurationSectionLinks,
               child: const ProfileLinks(),
+            ),
+            const SizedBox(height: sectionSpacerLinksSubpages),
+            AnimatedOpacity(
+              opacity: _subpagesOpacity,
+              duration: fadeDurationSectionSubpages,
+              child: const Subpages(),
             ),
           ],
         ),
