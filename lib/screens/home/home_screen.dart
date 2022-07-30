@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/sections/links_section.dart';
-import 'package:tytydraco_xyz/screens/home/sections/main_section.dart';
-import 'package:tytydraco_xyz/screens/home/sections/subpages_section.dart';
+import 'package:tytydraco_xyz/screens/home/sections/links/links_section.dart';
+import 'package:tytydraco_xyz/screens/home/sections/main/main_section.dart';
+import 'package:tytydraco_xyz/screens/home/sections/subpages/subpages_section.dart';
 
 /// The main home screen of the app.
 class HomeScreen extends StatefulWidget {

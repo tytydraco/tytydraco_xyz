@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/profile_links.dart';
+import 'package:tytydraco_xyz/screens/home/sections/links/profile_links.dart';
 
 /// Section of the page containing the profile links.
 class LinksSection extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/profile_logo.dart';
-import 'package:tytydraco_xyz/screens/home/profile_name.dart';
+import 'package:tytydraco_xyz/screens/home/sections/main/profile_logo.dart';
+import 'package:tytydraco_xyz/screens/home/sections/main/profile_name.dart';
 
 /// Section of the page containing the logo and profile information.
 class MainSection extends StatefulWidget {
