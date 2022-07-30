@@ -22,8 +22,16 @@ class Subpage extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(subpage.name),
-            Text(subpage.description),
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: Text(subpage.name),
+            ),
+            Expanded(
+              child: Text(
+                subpage.description,
+                textAlign: TextAlign.end,
+              ),
+            ),
           ],
         ),
       ),
