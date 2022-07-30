@@ -16,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    final _screenHeight = MediaQuery.of(context).size.height;
+    final _screenHeight = MediaQuery.of(context).size.height - 100;
 
     return Scaffold(
       body: Center(
