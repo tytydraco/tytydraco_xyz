@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tytydraco_xyz/config.dart';
-import 'package:url_launcher/url_launcher_string.dart';
+import 'package:tytydraco_xyz/screens/home/sections/links/profile_link.dart';
 
 /// A row of icons with relevant links for tytydraco.
 class ProfileLinks extends StatelessWidget {
@@ -14,17 +13,7 @@ class ProfileLinks extends StatelessWidget {
       padding: const EdgeInsets.all(16),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: links
-            .map(
-              (link) => Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: IconButton(
-                  onPressed: () => launchUrlString(link.url),
-                  icon: FaIcon(link.iconData),
-                ),
-              ),
-            )
-            .toList(),
+        children: links.map((link) => ProfileLink(link: link)).toList(),
       ),
     );
   }
