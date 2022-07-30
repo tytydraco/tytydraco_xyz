@@ -3,9 +3,9 @@
     "short_name": "tytydraco",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "The Flutter frontend app for the tytydraco.xyz website.",
+    "background_color": "#212121",
+    "theme_color": "#212121",
+    "description": "The landing page for my projects.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

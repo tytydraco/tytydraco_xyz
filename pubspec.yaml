@@ -11,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.1.0
+  url_launcher: ^6.1.5
 
 dev_dependencies:
   basil: ^1.1.0+1
@@ -21,11 +23,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets: [ 'assets/' ]
 
 flutter_icons:
   web: true
-  image_path: 'assets/logo.png'
+  image_path: 'assets/logo_circle_dark.png'
 
 basil:
   get:
@@ -35,4 +36,4 @@ basil:
   build:
     cmds: [ 'flutter build web --release --web-renderer html' ]
   publish:
-    cmds: [ 'bash -c "cd build/web/ && echo TODO"' ]
+    cmds: [ 'firebase deploy' ]
