@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tytydraco_xyz/config.dart';
 
 /// A widget to show the main logo which represents tytydraco.
 class ProfileLogo extends StatelessWidget {
@@ -8,7 +9,7 @@ class ProfileLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Text(
-      '#!t',
+      logoText,
       style: TextStyle(
         fontSize: 128,
       ),

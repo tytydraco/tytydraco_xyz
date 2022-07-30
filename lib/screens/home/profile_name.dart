@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tytydraco_xyz/config.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// A widget to show the main profile name which represents tytydraco.
@@ -14,7 +15,7 @@ class ProfileName extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.symmetric(horizontal: 4),
           child: Text(
-            'tytydraco',
+            displayName,
             style: TextStyle(
               fontSize: 18,
             ),
@@ -24,20 +25,20 @@ class ProfileName extends StatelessWidget {
           onTap: () => launchUrl(
             Uri(
               scheme: 'mailto',
-              path: 'tylernij@gmail.com',
+              path: email,
             ),
           ),
           child: const Padding(
             padding: EdgeInsets.symmetric(horizontal: 4),
             child: Text(
-              '<tylernij@gmail.com>',
+              '<$email>',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
             ),
           ),
-        )
+        ),
       ],
     );
   }

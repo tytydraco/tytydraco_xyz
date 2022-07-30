@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tytydraco_xyz/config.dart';
 import 'package:tytydraco_xyz/screens/home/profile_links.dart';
 import 'package:tytydraco_xyz/screens/home/profile_logo.dart';
 import 'package:tytydraco_xyz/screens/home/profile_name.dart';
@@ -17,12 +18,12 @@ class _HomeScreenState extends State<HomeScreen> {
   var _linksOpacity = 0.0;
 
   Future<void> _startFade() async {
-    await Future<void>.delayed(const Duration(milliseconds: 500));
+    await Future<void>.delayed(fadeDelaySectionMain);
     setState(() {
       _mainOpacity = 1.0;
     });
 
-    await Future<void>.delayed(const Duration(milliseconds: 750));
+    await Future<void>.delayed(fadeDelaySectionLinks);
     setState(() {
       _linksOpacity = 1.0;
     });
@@ -43,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             AnimatedOpacity(
               opacity: _mainOpacity,
-              duration: const Duration(seconds: 1),
+              duration: fadeDurationSectionMain,
               child: Column(
                 children: const [
                   ProfileLogo(),
@@ -51,10 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-            const SizedBox(height: 50),
+            const SizedBox(height: sectionSpacerMainLinks),
             AnimatedOpacity(
               opacity: _linksOpacity,
-              duration: const Duration(seconds: 1),
+              duration: fadeDurationSectionLinks,
               child: const ProfileLinks(),
             ),
           ],
