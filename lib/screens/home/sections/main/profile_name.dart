@@ -12,29 +12,33 @@ class ProfileName extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 4),
-          child: Text(
-            displayName,
-            style: TextStyle(
-              fontSize: 18,
+        const Flexible(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 4),
+            child: Text(
+              displayName,
+              style: TextStyle(
+                fontSize: 18,
+              ),
             ),
           ),
         ),
-        InkWell(
-          onTap: () => launchUrl(
-            Uri(
-              scheme: 'mailto',
-              path: email,
+        Flexible(
+          child: InkWell(
+            onTap: () => launchUrl(
+              Uri(
+                scheme: 'mailto',
+                path: email,
+              ),
             ),
-          ),
-          child: const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 4),
-            child: Text(
-              '<$email>',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 18,
+            child: const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 4),
+              child: Text(
+                '<$email>',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
               ),
             ),
           ),
