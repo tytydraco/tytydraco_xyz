@@ -9,36 +9,32 @@ class ProfileName extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+    return Wrap(
+      alignment: WrapAlignment.center,
       children: [
-        const Flexible(
-          child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 4),
-            child: Text(
-              displayName,
-              style: TextStyle(
-                fontSize: 18,
-              ),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 4),
+          child: Text(
+            displayName,
+            style: TextStyle(
+              fontSize: 18,
             ),
           ),
         ),
-        Flexible(
-          child: InkWell(
-            onTap: () => launchUrl(
-              Uri(
-                scheme: 'mailto',
-                path: email,
-              ),
+        InkWell(
+          onTap: () => launchUrl(
+            Uri(
+              scheme: 'mailto',
+              path: email,
             ),
-            child: const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 4),
-              child: Text(
-                '<$email>',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                ),
+          ),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 4),
+            child: Text(
+              '<$email>',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
               ),
             ),
           ),
