@@ -2,8 +2,8 @@ name: tytydraco_xyz
 description: The Flutter frontend app for the tytydraco.xyz website.
 publish_to: 'none'
 version: 1.0.0
-repository: https://www.github.com/tytydraco/tytydraco_xyz
-homepage: https://www.tytydraco.xyz
+repository: https://github.com/tytydraco/tytydraco_xyz
+homepage: https://tytydraco.xyz
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
