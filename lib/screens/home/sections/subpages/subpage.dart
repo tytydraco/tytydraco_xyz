@@ -16,7 +16,7 @@ class Subpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => launchUrlString(subpage.url),
+      onTap: () => launchUrlString(subpage.url, webOnlyWindowName: '_self'),
       child: Padding(
         padding: const EdgeInsets.all(8),
         child: Row(
