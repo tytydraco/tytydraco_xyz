@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/sections/subpages/reveal_arrow.dart';
 import 'package:tytydraco_xyz/screens/home/sections/subpages/subpages.dart';
 
 /// Section of the page containing the other hosted subpages.
@@ -35,7 +34,6 @@ class _SubpagesSectionState extends State<SubpagesSection> {
       duration: fadeDurationSectionSubpages,
       child: Column(
         children: const [
-          RevealArrow(),
           Subpages(),
         ],
       ),
