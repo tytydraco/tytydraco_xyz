@@ -13,10 +13,10 @@ const String email = 'tylernij@gmail.com';
 
 /// Time from app start before fading in the main section, which includes the
 /// logo, name, and email.
-const Duration fadeDelaySectionMain = Duration(milliseconds: 500);
+const Duration fadeDelaySectionMain = Duration(milliseconds: 250);
 
 /// Time from app start before fading in the links section.
-const Duration fadeDelaySectionLinks = Duration(milliseconds: 750);
+const Duration fadeDelaySectionLinks = Duration(milliseconds: 500);
 
 /// Time from app start before fading in the subpages section.
 const Duration fadeDelaySectionSubpages = Duration(milliseconds: 1000);
