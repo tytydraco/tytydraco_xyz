@@ -58,7 +58,7 @@ const links = [
 const subpages = [
   SubpageModel(
     name: 'yessleep',
-    description: 'a r/nosleep scraper and publisher in Markdown format',
+    description: 'a r/nosleep scraper',
     url: 'https://yessleep.tytydraco.xyz',
   ),
 ];
