@@ -3,39 +3,39 @@ import 'package:tytydraco_xyz/models/link_model.dart';
 import 'package:tytydraco_xyz/models/subpage_model.dart';
 
 /// The logo text to display in Source Code pro font.
-const logoText = '#!t';
+const String logoText = '#!t';
 
 /// The display name to show in the main section.
-const displayName = 'tytydraco';
+const String displayName = 'tytydraco';
 
 /// The email address to show in the main section.
-const email = 'tylernij@gmail.com';
+const String email = 'tylernij@gmail.com';
 
 /// Time from app start before fading in the main section, which includes the
 /// logo, name, and email.
-const fadeDelaySectionMain = Duration(milliseconds: 500);
+const Duration fadeDelaySectionMain = Duration(milliseconds: 500);
 
 /// Time from app start before fading in the links section.
-const fadeDelaySectionLinks = Duration(milliseconds: 750);
+const Duration fadeDelaySectionLinks = Duration(milliseconds: 750);
 
 /// Time from app start before fading in the subpages section.
-const fadeDelaySectionSubpages = Duration(milliseconds: 1000);
+const Duration fadeDelaySectionSubpages = Duration(milliseconds: 1000);
 
 /// Duration for the main section fade in.
-const fadeDurationSectionMain = Duration(milliseconds: 500);
+const Duration fadeDurationSectionMain = Duration(milliseconds: 500);
 
 /// Duration for the links section fade in.
-const fadeDurationSectionLinks = Duration(milliseconds: 500);
+const Duration fadeDurationSectionLinks = Duration(milliseconds: 500);
 
 /// Duration for the subpages section fade in.
-const fadeDurationSectionSubpages = Duration(milliseconds: 500);
+const Duration fadeDurationSectionSubpages = Duration(milliseconds: 500);
 
 /// Vertical height to space between the main, links, and arrow section.
-const spacerMain = 50.0;
+const double spacerMain = 50;
 
 /// A list of type [LinkModel] containing the links we are going to display in
 /// the links section.
-const links = [
+const Iterable<LinkModel> links = [
   LinkModel(
     iconData: FontAwesomeIcons.github,
     url: 'https://github.com/tytydraco',
@@ -52,7 +52,7 @@ const links = [
 
 /// A list of type [SubpageModel] containing the links to any additional subpages to
 /// display in the subpages section.
-const subpages = [
+const Iterable<SubpageModel> subpages = [
   SubpageModel(
     name: 'yessleep',
     description: 'a r/nosleep scraper',
