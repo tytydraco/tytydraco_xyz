@@ -40,7 +40,9 @@ basil:
   build:
     cmds:
       - 'flutter build web --release --web-renderer html'
-      - 'git add .'
+      - 'git add build/web/'
       - 'bash -c "git commit -sam \"Build web: $(date)\""'
   publish:
-    cmds: [ 'firebase deploy' ]
+    cmds:
+      - 'firebase deploy'
+      - 'git push'
