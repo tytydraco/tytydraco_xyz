@@ -32,7 +32,7 @@ const Duration fadeDurationSectionSubpages = Duration(milliseconds: 500);
 
 /// A list of type [LinkModel] containing the links we are going to display in
 /// the links section.
-const Iterable<LinkModel> links = [
+const List<LinkModel> links = [
   LinkModel(
     iconData: FontAwesomeIcons.github,
     url: 'https://github.com/tytydraco',
@@ -49,7 +49,7 @@ const Iterable<LinkModel> links = [
 
 /// A list of type [SubpageModel] containing the links to any additional subpages to
 /// display in the subpages section.
-const Iterable<SubpageModel> subpages = [
+const List<SubpageModel> subpages = [
   SubpageModel(
     name: 'yessleep',
     description: 'a r/nosleep scraper',
