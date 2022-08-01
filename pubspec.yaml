@@ -38,6 +38,9 @@ basil:
   icon:
     cmds: [ 'flutter pub run flutter_launcher_icons_maker:main' ]
   build:
-    cmds: [ 'flutter build web --release --web-renderer html' ]
+    cmds:
+      - 'flutter build web --release --web-renderer html'
+      - 'git add .'
+      - 'bash -c "git commit -sam \"Build web: $(date)\""'
   publish:
     cmds: [ 'firebase deploy' ]
