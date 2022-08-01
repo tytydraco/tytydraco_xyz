@@ -46,6 +46,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Reveal web build output
-!/build/web/
-!/build/web/*
+

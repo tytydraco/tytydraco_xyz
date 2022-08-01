@@ -30,9 +30,6 @@ const Duration fadeDurationSectionLinks = Duration(milliseconds: 500);
 /// Duration for the subpages section fade in.
 const Duration fadeDurationSectionSubpages = Duration(milliseconds: 500);
 
-/// Vertical height to space between the main, links, and arrow section.
-const double spacerMain = 50;
-
 /// A list of type [LinkModel] containing the links we are going to display in
 /// the links section.
 const Iterable<LinkModel> links = [
