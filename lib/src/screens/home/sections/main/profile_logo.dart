@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
+import 'package:tytydraco_xyz/src/config.dart';
 
 /// A widget to show the main logo which represents tytydraco.
 class ProfileLogo extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/sections/subpages/subpages.dart';
+import 'package:tytydraco_xyz/src/config.dart';
+import 'package:tytydraco_xyz/src/screens/home/sections/subpages/subpages.dart';
 
 /// Section of the page containing the other hosted subpages.
 class SubpagesSection extends StatefulWidget {

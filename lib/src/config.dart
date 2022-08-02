@@ -1,6 +1,6 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:tytydraco_xyz/models/link_model.dart';
-import 'package:tytydraco_xyz/models/subpage_model.dart';
+import 'package:tytydraco_xyz/src/models/link_model.dart';
+import 'package:tytydraco_xyz/src/models/subpage_model.dart';
 
 /// The logo text to display in Source Code pro font.
 const String logoText = '#!t';

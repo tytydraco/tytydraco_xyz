@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/models/subpage_model.dart';
+import 'package:tytydraco_xyz/src/models/subpage_model.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 /// A clickable widget displaying the contents of a [SubpageModel].

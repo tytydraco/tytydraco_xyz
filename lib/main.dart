@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/screens/home/home_screen.dart';
-import 'package:tytydraco_xyz/themes.dart';
+import 'package:tytydraco_xyz/src/screens/home/home_screen.dart';
+import 'package:tytydraco_xyz/src/themes.dart';
 
 void main() {
   runApp(const TytydracoXYZ());

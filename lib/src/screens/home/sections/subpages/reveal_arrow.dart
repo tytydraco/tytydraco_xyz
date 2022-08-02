@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
+import 'package:tytydraco_xyz/src/config.dart';
 
 /// A down-facing arrow to symbolize more content is available underneath.
 class RevealArrow extends StatefulWidget {

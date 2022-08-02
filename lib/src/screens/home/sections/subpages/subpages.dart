@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/sections/subpages/subpage.dart';
+import 'package:tytydraco_xyz/src/config.dart';
+import 'package:tytydraco_xyz/src/screens/home/sections/subpages/subpage.dart';
 
 /// A column with links to other subprojects hosted on the same domain.
 class Subpages extends StatelessWidget {

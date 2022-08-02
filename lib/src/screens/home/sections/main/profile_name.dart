@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
+import 'package:tytydraco_xyz/src/config.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// A widget to show the main profile name which represents tytydraco.

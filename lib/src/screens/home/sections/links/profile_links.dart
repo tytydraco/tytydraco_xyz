@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tytydraco_xyz/config.dart';
-import 'package:tytydraco_xyz/screens/home/sections/links/profile_link.dart';
+import 'package:tytydraco_xyz/src/config.dart';
+import 'package:tytydraco_xyz/src/screens/home/sections/links/profile_link.dart';
 
 /// A row of icons with relevant links for tytydraco.
 class ProfileLinks extends StatelessWidget {
