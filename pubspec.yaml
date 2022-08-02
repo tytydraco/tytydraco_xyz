@@ -30,18 +30,3 @@ flutter:
 flutter_icons:
   web: true
   image_path: 'assets/logo_circle_dark.png'
-
-basil:
-  get:
-    cmds: [ 'flutter pub get' ]
-  icon:
-    cmds: [ 'flutter pub run flutter_launcher_icons_maker:main' ]
-  build:
-    cmds:
-      - 'flutter build web --release --web-renderer html'
-      - 'git add build/web/'
-      - 'bash -c "git commit -sam \"Build web: $(date)\""'
-  publish:
-    cmds:
-      - 'firebase deploy'
-      - 'git push'
