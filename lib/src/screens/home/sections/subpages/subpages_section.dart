@@ -32,11 +32,7 @@ class _SubpagesSectionState extends State<SubpagesSection> {
     return AnimatedOpacity(
       opacity: _subpagesOpacity,
       duration: fadeDurationSectionSubpages,
-      child: Column(
-        children: const [
-          Subpages(),
-        ],
-      ),
+      child: const Subpages(),
     );
   }
 }
