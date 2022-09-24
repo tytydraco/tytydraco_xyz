@@ -43,11 +43,11 @@ const List<LinkModel> links = [
   ),
   LinkModel(
     iconData: FontAwesomeIcons.linkedin,
-    url: 'https://www.linkedin.com/in/tyler-nijmeh',
+    url: 'https://linkedin.com/in/tyler-nijmeh',
   ),
   LinkModel(
-    iconData: FontAwesomeIcons.box,
-    url: 'https://pub.dev/publishers/tytydraco.xyz/packages',
+    iconData: FontAwesomeIcons.solidFilePdf,
+    url: 'https://github.com/tytydraco/tytydraco_xyz/blob/main/assets/resume.pdf',
   ),
 ];
 
@@ -56,7 +56,7 @@ const List<LinkModel> links = [
 const List<SubpageModel> subpages = [
   SubpageModel(
     name: 'yessleep',
-    description: 'a r/nosleep scraper',
+    description: 'an r/nosleep scraper',
     url: 'https://yessleep.tytydraco.xyz',
   ),
 ];
