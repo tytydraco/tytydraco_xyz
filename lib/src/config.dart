@@ -42,6 +42,10 @@ const List<LinkModel> links = [
     url: 'https://telegram.me/tytydraco',
   ),
   LinkModel(
+    iconData: FontAwesomeIcons.linkedin,
+    url: 'https://www.linkedin.com/in/tyler-nijmeh',
+  ),
+  LinkModel(
     iconData: FontAwesomeIcons.box,
     url: 'https://pub.dev/publishers/tytydraco.xyz/packages',
   ),
