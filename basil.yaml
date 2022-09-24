@@ -2,7 +2,7 @@ basil:
   get:
     cmds: [ 'flutter pub get' ]
   icon:
-    cmds: [ 'flutter pub run flutter_launcher_icons_maker:main' ]
+    cmds: [ 'flutter pub run icons_launcher:create' ]
   build:
     cmds:
       - 'flutter build web --release --web-renderer html'

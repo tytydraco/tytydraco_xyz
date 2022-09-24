@@ -69,13 +69,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_launcher_icons_maker:
-    dependency: "direct dev"
-    description:
-      name: flutter_launcher_icons_maker
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.10.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -93,6 +86,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "10.1.0"
+  icons_launcher:
+    dependency: "direct dev"
+    description:
+      name: icons_launcher
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.5"
   image:
     dependency: transitive
     description:
@@ -203,6 +203,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.1"
+  universal_io:
+    dependency: transitive
+    description:
+      name: universal_io
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.4"
   url_launcher:
     dependency: "direct main"
     description:

@@ -15,9 +15,9 @@ dependencies:
   url_launcher: ^6.1.5
 
 dev_dependencies:
-  flutter_launcher_icons_maker: ^0.10.2
   flutter_test:
     sdk: flutter
+  icons_launcher: ^2.0.5
   very_good_analysis: ^3.0.1
 
 flutter:
@@ -27,6 +27,8 @@ flutter:
       fonts:
         - asset: fonts/SourceCodePro-Regular.otf
 
-flutter_icons:
-  web: true
+icons_launcher:
   image_path: 'assets/logo_circle_dark.png'
+  platforms:
+    web:
+      enable: true
