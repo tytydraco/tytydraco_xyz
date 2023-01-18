@@ -47,7 +47,12 @@ const List<LinkModel> links = [
   ),
   LinkModel(
     iconData: FontAwesomeIcons.solidFilePdf,
-    url: 'https://github.com/tytydraco/tytydraco_xyz/blob/main/assets/resume.pdf',
+    url:
+        'https://github.com/tytydraco/tytydraco_xyz/blob/main/assets/resume.pdf',
+  ),
+  LinkModel(
+    iconData: FontAwesomeIcons.pills,
+    url: 'https://pharm.tytydraco.xyz',
   ),
 ];
 
@@ -55,8 +60,13 @@ const List<LinkModel> links = [
 /// display in the subpages section.
 const List<SubpageModel> subpages = [
   SubpageModel(
+    name: 'pharm',
+    description: 'a medical blog',
+    url: 'https://pharm.tytydraco.xyz',
+  ),
+  SubpageModel(
     name: 'yessleep',
-    description: 'an r/nosleep scraper',
+    description: 'a r/nosleep scraper',
     url: 'https://yessleep.tytydraco.xyz',
   ),
 ];
