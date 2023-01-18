@@ -50,10 +50,6 @@ const List<LinkModel> links = [
     url:
         'https://github.com/tytydraco/tytydraco_xyz/blob/main/assets/resume.pdf',
   ),
-  LinkModel(
-    iconData: FontAwesomeIcons.pills,
-    url: 'https://pharm.tytydraco.xyz',
-  ),
 ];
 
 /// A list of type [SubpageModel] containing the links to any additional subpages to
