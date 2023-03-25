@@ -65,4 +65,9 @@ const List<SubpageModel> subpages = [
     description: 'a r/nosleep scraper',
     url: 'https://yessleep.tytydraco.xyz',
   ),
+  SubpageModel(
+    name: 'masque',
+    description: 'an anonymous chat client',
+    url: 'https://masque.tytydraco.xyz',
+  ),
 ];
