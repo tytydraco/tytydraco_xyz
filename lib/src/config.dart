@@ -63,7 +63,7 @@ const List<SubpageModel> subpages = [
   SubpageModel(
     name: 'melatonin',
     description: 'circadian rhythm advancement',
-    url: 'https://melatonin_optim.tytydraco.xyz',
+    url: 'https://melatonin.tytydraco.xyz',
   ),
   SubpageModel(
     name: 'yessleep',
