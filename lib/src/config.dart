@@ -75,4 +75,9 @@ const List<SubpageModel> subpages = [
     description: 'an anonymous chat client',
     url: 'https://masque.tytydraco.xyz',
   ),
+  SubpageModel(
+    name: 'naural',
+    description: 'a simple binaural beat generator',
+    url: 'https://naural.tytydraco.xyz',
+  ),
 ];
