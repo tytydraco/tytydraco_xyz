@@ -7,8 +7,7 @@ import 'package:url_launcher/url_launcher_string.dart';
 class ProfileLink extends StatelessWidget {
   /// Creates a new [ProfileLink] given a [link] model.
   const ProfileLink({
-    super.key,
-    required this.link,
+    required this.link, super.key,
   });
 
   /// The link to display;

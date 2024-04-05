@@ -16,16 +16,16 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    final _screenHeight = MediaQuery.of(context).size.height;
+    final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
       body: ListView(
         children: [
           SizedBox(
-            height: _screenHeight,
-            child: Column(
+            height: screenHeight,
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: const [
+              children: [
                 MainSection(),
                 LinksSection(),
                 RevealArrow(),

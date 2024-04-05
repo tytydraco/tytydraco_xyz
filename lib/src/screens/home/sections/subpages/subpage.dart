@@ -6,8 +6,7 @@ import 'package:url_launcher/url_launcher_string.dart';
 class Subpage extends StatelessWidget {
   /// Creates a new [Subpage] given a [subpage] model.
   const Subpage({
-    super.key,
-    required this.subpage,
+    required this.subpage, super.key,
   });
 
   /// The subpage to display;

@@ -33,8 +33,8 @@ class _MainSectionState extends State<MainSection> {
     return AnimatedOpacity(
       opacity: _mainOpacity,
       duration: fadeDurationSectionMain,
-      child: Column(
-        children: const [
+      child: const Column(
+        children: [
           ProfileLogo(),
           ProfileName(),
         ],
