@@ -80,4 +80,9 @@ const List<SubpageModel> subpages = [
     description: 'a simple binaural beat generator',
     url: 'https://naural.tytydraco.xyz',
   ),
+  SubpageModel(
+    name: 'spray_tool',
+    description: 'medicated spray bottle calculator',
+    url: 'https://spray_tool.tytydraco.xyz',
+  ),
 ];
