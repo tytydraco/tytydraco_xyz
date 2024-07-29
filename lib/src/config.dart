@@ -85,4 +85,9 @@ const List<SubpageModel> subpages = [
     description: 'medicated spray bottle calculator',
     url: 'https://spray_tool.tytydraco.xyz',
   ),
+  SubpageModel(
+    name: 'loggy',
+    description: 'Log your day, everyday.',
+    url: 'https://loggy.tytydraco.xyz',
+  ),
 ];
