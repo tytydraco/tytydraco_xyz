@@ -87,7 +87,7 @@ const List<SubpageModel> subpages = [
   ),
   SubpageModel(
     name: 'loggy',
-    description: 'Log your day, everyday.',
+    description: 'log your day, everyday.',
     url: 'https://loggy.tytydraco.xyz',
   ),
 ];
