@@ -90,4 +90,9 @@ const List<SubpageModel> subpages = [
     description: 'log your day, everyday.',
     url: 'https://loggy.tytydraco.xyz',
   ),
+  SubpageModel(
+    name: 'inktober_2024_clock',
+    description: 'art submission, theme is "clock".',
+    url: 'https://inktober_2024_clock.tytydraco.xyz',
+  ),
 ];
