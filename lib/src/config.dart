@@ -55,11 +55,11 @@ const List<LinkModel> links = [
 /// A list of type [SubpageModel] containing the links to any additional subpages to
 /// display in the subpages section.
 const List<SubpageModel> subpages = [
-  SubpageModel(
+  /*SubpageModel(
     name: 'pharm',
     description: 'a medical blog',
     url: 'https://pharm.tytydraco.xyz',
-  ),
+  ),*/
   SubpageModel(
     name: 'melatonin',
     description: 'circadian rhythm advancement',
@@ -80,11 +80,11 @@ const List<SubpageModel> subpages = [
     description: 'a simple binaural beat generator',
     url: 'https://naural.tytydraco.xyz',
   ),
-  SubpageModel(
+  /*SubpageModel(
     name: 'spray_tool',
     description: 'medicated spray bottle calculator',
     url: 'https://spray_tool.tytydraco.xyz',
-  ),
+  ),*/
   SubpageModel(
     name: 'loggy',
     description: 'log your day, everyday.',
