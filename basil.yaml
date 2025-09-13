@@ -5,7 +5,7 @@ basil:
     cmds: [ 'flutter pub run icons_launcher:create' ]
   build:
     cmds:
-      - 'flutter build web --release --web-renderer html --base-href "/build/web/"'
+      - 'flutter build web --release --base-href "/build/web/"'
   publish:
     cmds:
       - 'git add -f build/web/'
