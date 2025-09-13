@@ -61,6 +61,11 @@ const List<SubpageModel> subpages = [
     url: 'https://pharm.tytydraco.xyz',
   ),*/
   SubpageModel(
+    name: 'rdcli_ui',
+    description: 'real-debrid downloader',
+    url: 'https://rdcli_ui.tytydraco.xyz',
+  ),
+  SubpageModel(
     name: 'melatonin',
     description: 'circadian rhythm advancement',
     url: 'https://melatonin.tytydraco.xyz',
@@ -80,11 +85,11 @@ const List<SubpageModel> subpages = [
     description: 'a simple binaural beat generator',
     url: 'https://naural.tytydraco.xyz',
   ),
-  /*SubpageModel(
+  SubpageModel(
     name: 'spray_tool',
     description: 'medicated spray bottle calculator',
     url: 'https://spray_tool.tytydraco.xyz',
-  ),*/
+  ),
   SubpageModel(
     name: 'loggy',
     description: 'log your day, everyday.',
