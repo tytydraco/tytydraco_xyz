@@ -9,7 +9,7 @@ const String logoText = '#!t';
 const String displayName = 'tytydraco';
 
 /// The email address to show in the main section.
-const String email = 'tylernij@gmail.com';
+const String email = 'tylernij@tytydraco.xyz';
 
 /// Time from app start before fading in the main section, which includes the
 /// logo, name, and email.
@@ -44,11 +44,6 @@ const List<LinkModel> links = [
   LinkModel(
     iconData: FontAwesomeIcons.linkedin,
     url: 'https://linkedin.com/in/tyler-nijmeh',
-  ),
-  LinkModel(
-    iconData: FontAwesomeIcons.solidFilePdf,
-    url:
-        'https://github.com/tytydraco/tytydraco_xyz/blob/main/assets/resume.pdf',
   ),
 ];
 
